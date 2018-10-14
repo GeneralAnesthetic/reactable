@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+nav {
+  background-color: darkolivegreen;
+}
+#header-container {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  max-width: 100%;
+  background: repeating-radial-gradient(lightcyan, palegreen 95%);
+}
+
+#counters {
+  color: whitesmoke;
+}
+
+#card-container {
+  margin-top: 120px;
+}
+
+.drunkImg {
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  width: 200px;
+}
+.imageContainer {
+  cursor: pointer;
+}
+
+#logo {
+  transition: border 0.5s ease-out;
+  border-radius: 10px 10px 10px 10px;
+  transition: border 0.5s ease-out;
+  /* padding: 5px 30px 5px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2); */
+  background-color: darkslateblue;
+  color: lightgray;
+  font-family: "Barlow", sans-serif;
+}
+
+.subtitle,
+#counters {
+  font-family: "Roboto", sans-serif;
+}
